@@ -1,4 +1,4 @@
-# Assignment 1 - UR10e Drawing - Group 1
+UR10e Drawing
 
 ## Group Members
 
