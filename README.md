@@ -2,12 +2,12 @@ UR10e Drawing
 
 ## Group Members
 
-| Name               | TUM ID    |
-| ------------------ | --------- |
-| *Vincent Amberger*   | *go69cej* |
-| *Mihai-Andrei Dancu* | *go57wan* |
-| *Mohamed Altorky*    | *go69kez* |
-| *Valentín Magdalena Sánchez* | *go39fip* |
+| Name                         |
+| -----------------------------|
+| *Vincent Amberger*           |
+| *Mihai-Andrei Dancu*         | 
+| *Mohamed Altorky*            | 
+| *Valentín Magdalena Sánchez* |
 
 
 ## Quick‑Start
