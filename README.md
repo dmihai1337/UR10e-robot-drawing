@@ -1,0 +1,43 @@
+# Assignment 1 - UR10e Drawing - Group 1
+
+## Group Members
+
+| Name               | TUM ID    |
+| ------------------ | --------- |
+| *Vincent Amberger*   | *go69cej* |
+| *Mihai-Andrei Dancu* | *go57wan* |
+| *Mohamed Altorky*    | *go69kez* |
+| *Valentín Magdalena Sánchez* | *go39fip* |
+
+
+## Quick‑Start
+
+### Simulator 
+1. Install RoboDK  and open `svg_drawing_ur10.rdk`.
+2. The scene loads the UR10e with a dry erase marker and a virtual whiteboard.
+3. Open `draw_TUM.py`/ `draw_circles.py` depending on what you want to draw
+   * Modify the path of the input svg file to where you placed the files located in `svg/`. Alternatively, you can choose another svg file.
+   * Adapt the virtual board size of the script:
+
+     ```python
+     BOARD_WIDTH  = 500   # mm
+     BOARD_HEIGHT = 250   # mm
+     ```
+   * adjust `home_joints` to a collision‑free position
+4. Confirm that the robot moves to *Home* and then traces the SVG paths in the simulator.
+5. Generate a robot program to export the `.script` and `.urp` files.
+
+### UR10e Robot
+1. Equip the robot with a dry erase marker and teach the tool center point (TCP)
+2. Using the Teach Panel, move the robot to 3 new points on the board using the the origin-x-y method, which you define as targets in RoboDK. Then create a new plane in RoboDK using those 3 points and align the whiteboard with it. Now the physical and the simulated board are aligned.
+3. Copy the `.urp` and `.script` files to a USB stick and upload them to the Teach Panel
+4. Ensure the workspace is clear and either load the `.urp` file or start the `.script` file in the Program Tab of the Teach Panel to start the program.
+5. Watch and enjoy.
+
+## Demonstration Video
+
+### [Concentric circles](videos/concentric-circles-drawing.mp4)
+<video src="videos/concentric-circles-drawing.mp4" controls width="640" preload="none"></video>
+
+### [TUM-Logo](videos/TUM_drawing.mp4)
+<video src="videos/TUM_drawing.mp4" controls width="640" preload="none"></video>
